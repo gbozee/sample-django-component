@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<c-navbar></c-navbar>
+<c-hero title="{{ hello }}"></c-hero>
+<div class="flex justify-between">
+    <c-sidebar>
+        <p>This is the sidebar content</p>
+    </c-sidebar>
+    <c-main-content>
+        <p>This is the main content</p>
+    </c-main-content>
+</div>
+<c-footer></c-footer>
+
+
+{% endblock %}
